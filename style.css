@@ -1,0 +1,144 @@
+.nav-menu {
+  display: flex;
+  justify-content: space-around;
+}
+.menu {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  align-items: center;
+  width: 300px;
+}
+.menu {
+  width: 30%;
+}
+.yazid {
+  display: none;
+  position: absolute;
+  list-style: none;
+}
+.dropdown:hover .yazid {
+  display: block;
+  cursor: pointer;
+}
+.dropdown .yazid li {
+  margin: 10px;
+}
+
+img {
+  width: 20%;
+}
+h1 {
+  display: flex;
+  justify-content: space-around;
+  color: grey;
+}
+.lo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 3.5%;
+  
+}
+.parag {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 40px;
+}
+.acceuil {
+  display: inline;
+  
+}
+a {
+  text-decoration: none;
+  color: #00b39b;
+  font-size: 20px;
+}
+
+a:hover {
+  color: rgb(28, 123, 158);
+}
+.dropbtn {
+  text-decoration: none;
+  color: #00b39b;
+  font-size: 20px;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.parag p {
+  margin: 0.8em 0;
+  line-height: 1.75;
+  font-weight: 400;
+  border: 50%;
+}
+body {
+  font-weight: 400;
+  font-family: Roboto, Arial, sans-serif;
+  color: #747474;
+  padding-top: 0px;
+  -webkit-font-smoothing: antialiased;
+}
+.ip {
+  max-width: 8%;
+  height: auto;
+}
+section {
+  display: flex;
+  justify-content: space-around;
+}
+.section1 {
+  background-color: #00ccb1;
+}
+.section2 {
+  background-color: #3d83df;
+}
+.section3 {
+  background-color: #1b2734;
+}
+.sec{display: flex;
+    justify-content: space-between;
+    zoom: 1;
+    max-width: 1015px;
+    padding: 0 20px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.section1{font-size: 18px;
+    border-radius: 10px;
+    padding: 2em 2em 0;
+    overflow: hidden;
+    height: 345px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all .2s ease 0s;}
+.section2{font-size: 18px;
+    border-radius: 10px;
+    padding: 2em 2em 0;
+    overflow: hidden;
+    height: 345px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all .2s ease 0s;
+
+
+}
+.section3{font-size: 18px;
+    border-radius: 10px;
+    padding: 2em 2em 0;
+    overflow: hidden;
+    height: 345px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all .2s ease 0s;}
